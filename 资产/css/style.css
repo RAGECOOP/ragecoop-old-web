@@ -517,7 +517,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
 }
-
+.profiles-content .col-sm-3:hover {
+cursor: pointer;
+}
 .profiles-content {padding-top: 100px;}
 .profiles-content .col-sm-3{padding:0;}
 .profile-txt {
