@@ -354,7 +354,7 @@
 										<div class="profile-icon-name">下载客户端</div><!--Download the client-->
 										
 									</div>
-									<div class="single-profile-overlay">
+									<div class="single-profile-overlay" onclick="github()"><!--绑定按钮跳转链接-->
 										<div class="profile-txt">
 								<li type="button"><a href="https://github.com/RAGECOOP/RAGECOOP-V/releases" target="_self">下载客户端</a></li>
 										</div>
@@ -368,7 +368,7 @@
 										<a href=""><i class="flaticon-behance-logo"></i></a>
 										<div class="profile-icon-name">加入我们的Discord</div><!--Server download-->
 									</div>
-									<div class="single-profile-overlay">
+									<div class="single-profile-overlay" onclick="dis()"><!--绑定按钮跳转链接-->
 										<div class="profile-txt">
 								<li type="button"><a href="https://discord.gg/6YHtrHgFNJ" target="_self">加入我们的Discord</a></li>
 										</div>
@@ -381,7 +381,7 @@
 										<a href=""><i class="flaticon-dribbble"></i></a>
 										<div class="profile-icon-name">赞助作者</div>
 									</div>
-									<div class="single-profile-overlay">
+									<div class="single-profile-overlay" onclick="pat()"><!--绑定按钮跳转链接-->
 										<div class="profile-txt">
 								<li type="button"><a href="https://www.patreon.com/Sardelka" target="_self">赞助作者</a></li>
 										</div>
@@ -394,7 +394,7 @@
 										<a href=""><i class="flaticon-github-logo"></i></a>
 										<div class="profile-icon-name">开源项目</div><!--Open source projects-->
 									</div>
-									<div class="single-profile-overlay">
+									<div class="single-profile-overlay" onclick="github1()"><!--绑定按钮跳转链接-->
 										<div class="profile-txt">
 								<li type="button"><a href="https://github.com/RAGECOOP/RAGECOOP-V" target="_self">开源项目</a></li>
 											
@@ -533,7 +533,20 @@
 		<!--footer-copyright end-->
 		
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->
-
+        <script type="text/javascript"><!--js id  www绑定按钮跳转链接-->
+		function github() {
+		window.location.href = "https://github.com/RAGECOOP/RAGECOOP-V/releases"
+		}
+				function dis() {
+		window.location.href = "https://discord.gg/6YHtrHgFNJ"
+		}
+				function pat() {
+		window.location.href = "https://www.patreon.com/Sardelka"
+		}
+				function github1() {
+		window.location.href = "https://github.com/RAGECOOP/RAGECOOP-V"
+		}
+		</script>
 		<script src="assets/js/jquery.js"></script>
         
         <!--modernizr.min.js-->
